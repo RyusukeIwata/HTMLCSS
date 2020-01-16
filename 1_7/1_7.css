@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual{
+  height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+.main-visual h2{
+  position: absolute;
+  color: gray;
+  top: 20px;
+  left: 20px;
+}
+
+.clearfix{
+	margin: 50px auto;
+	width: 840px
+}
+
+.blog-text-headline{
+  margin-bottom: 30px;
+  border-bottom: solid 0.5px gray;
+  padding-bottom: 30px;
+}
