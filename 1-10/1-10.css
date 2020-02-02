@@ -1,0 +1,140 @@
+@media screen and (min-width: 769px){
+	* {
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	}
+	.clearfix::after {
+	  content: "";
+	  display: block;
+	  clear: both;
+	}
+
+	.box-list{
+		width: 960px;
+		height: auto;
+		margin: 50px 0;
+	}
+	.box{
+		width: 300px;
+		/*width: 90%;*/
+		float: left;
+		margin-right: 30px;
+		padding: 10px;
+		position: relative;
+		border: 1px solid #eee;
+	}
+
+	.box:last-child{
+	  margin-right: 0;
+	}
+
+	.img1{
+		background-image: url(img/flow01.png);
+		height: 160px;
+		background-position: bottom;
+		background-size: cover;
+	}
+	.img2{
+		background-image: url(img/flow02.png);
+		height: 160px;
+		background-position: bottom;
+		background-size: cover;
+	}
+	.img3{
+		background-image: url(img/flow03.png);
+		height: 160px;
+		background-position: bottom;
+		background-size: cover;
+	}
+
+	.num{
+		color: white;
+		background-color: orange;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 3px;
+	}
+
+	.cen{
+		word-wrap:break-word;
+	}
+
+	.title{
+		padding-top: 8px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	* {
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	}
+	.clearfix::after {
+	  content: "";
+	  display: block;
+	  clear: both;
+	}
+
+	.box-list{
+		width: 960px;
+		height: auto;
+		margin: 50px 0;
+	}
+	.box{
+		/*width: 300px;*/
+		width: 90%;
+		float: none;
+		margin: auto;
+		padding: 10px;
+		margin-bottom: 20px;
+		position: relative;
+		border: 1px solid #eee;
+	}
+
+	.box:last-child{
+	  margin-bottom: 0;
+	}
+
+	.img1{
+		background-image: url(img/flow01.png);
+		/*height: 110px;*/
+		height: 330px;
+		background-position: bottom;
+		background-size: cover;
+	}
+	.img2{
+		background-image: url(img/flow02.png);
+		height: 330px;
+		background-position: bottom;
+		background-size: cover;
+	}
+	.img3{
+		background-image: url(img/flow03.png);
+		height: 330px;
+		background-position: bottom;
+		background-size: cover;
+	}
+
+	.num{
+		color: white;
+		background-color: orange;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 3px;
+		font-size: 25px;
+	}
+
+	.cen{
+		word-wrap:break-word;
+		font-size: 30px;
+	}
+
+	.title{
+		padding-top: 8px;
+		font-size: 40px;
+	}
+}
