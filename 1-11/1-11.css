@@ -136,7 +136,7 @@
 		font-size: 32px;
 		color: #000000;
 		margin-top: 90px;
-		margin-bottom: 30px;
+		margin-bottom: 8px;
 		text-align: center;
 	}
 	.feature_none{
@@ -285,7 +285,7 @@
 		margin-left: 20px;
 	}
 	.contact_sub_content1{
-		width: 125px;
+		width: 130px;
 		margin: 0 auto;
 	}
 	.contact_sub_content2{
@@ -335,8 +335,18 @@
 	.header i{
 		float: right;
 		text-align: center;
-		line-height: 50px;
+		line-height: 40px;
+		color: #FAFAFA;
+		width: 40px;
+		height: 40px;
+		border: 1px solid #FAFAFA;
+		margin: 5px 0 5px 0;
 	}
+	/*.h_icon{
+		width: 40px;
+		height: 40px;
+		border: 1px solid #FAFAFA;
+	}*/
 	.h_list{
 		/*float: right;
 		height: 70px;
@@ -353,6 +363,7 @@
 	}
 	.main_visual_cen{
 		width: 90%;
+		margin: 0 auto;
 	}
 	.main_visual h1{
 		position: relative;
@@ -437,7 +448,7 @@
 		font-size: 32px;
 		color: #000000;
 		margin-top: 90px;
-		margin-bottom: 30px;
+		margin-bottom: 8px;
 		text-align: center;
 	}
 	.feature_none{
